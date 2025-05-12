@@ -3,11 +3,11 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bielik_locally.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node bielik_locally.js",
+    "dev": "nodemon bielik_locally.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,9 @@
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.98.0",
+    "pdf-parse": "^1.1.1",
     "replicate": "^1.0.1"
   }
 }
